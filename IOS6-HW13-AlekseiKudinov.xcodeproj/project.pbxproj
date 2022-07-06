@@ -12,11 +12,14 @@
 		B012CCC0284C234E00242328 /* SettingsTableViewCellWithText.swift in Sources */ = {isa = PBXBuildFile; fileRef = B012CCBF284C234E00242328 /* SettingsTableViewCellWithText.swift */; };
 		B01722B32848040E00378B16 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B01722B22848040E00378B16 /* AppDelegate.swift */; };
 		B01722B52848040E00378B16 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B01722B42848040E00378B16 /* SceneDelegate.swift */; };
-		B01722B72848040E00378B16 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B01722B62848040E00378B16 /* ViewController.swift */; };
+		B01722B72848040E00378B16 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B01722B62848040E00378B16 /* SettingsView.swift */; };
 		B01722BA2848040E00378B16 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B01722B82848040E00378B16 /* Main.storyboard */; };
 		B01722BC2848041600378B16 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B01722BB2848041600378B16 /* Assets.xcassets */; };
 		B01722BF2848041600378B16 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B01722BD2848041600378B16 /* LaunchScreen.storyboard */; };
 		B0836256284CB9010015FC31 /* SettingsTableViewCellWithNotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0836255284CB9010015FC31 /* SettingsTableViewCellWithNotification.swift */; };
+		B08513B32874F14B004A43A1 /* SettingsItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = B08513B22874F14B004A43A1 /* SettingsItem.swift */; };
+		B08513B82874F8C9004A43A1 /* SettingsItemModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B08513B72874F8C9004A43A1 /* SettingsItemModel.swift */; };
+		B08513BC2875077C004A43A1 /* SettingsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B08513BB2875077C004A43A1 /* SettingsController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,12 +29,15 @@
 		B01722AF2848040E00378B16 /* IOS6-HW13-AlekseiKudinov.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "IOS6-HW13-AlekseiKudinov.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B01722B22848040E00378B16 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B01722B42848040E00378B16 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		B01722B62848040E00378B16 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B01722B62848040E00378B16 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		B01722B92848040E00378B16 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B01722BB2848041600378B16 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B01722BE2848041600378B16 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		B01722C02848041600378B16 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B0836255284CB9010015FC31 /* SettingsTableViewCellWithNotification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsTableViewCellWithNotification.swift; sourceTree = "<group>"; };
+		B08513B22874F14B004A43A1 /* SettingsItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsItem.swift; sourceTree = "<group>"; };
+		B08513B72874F8C9004A43A1 /* SettingsItemModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsItemModel.swift; sourceTree = "<group>"; };
+		B08513BB2875077C004A43A1 /* SettingsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsController.swift; sourceTree = "<group>"; };
+		B08513BD28750F9C004A43A1 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = "../../../../../../Documents/TableView-project/TableView-project/Resources/Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,11 +70,8 @@
 		B01722B12848040E00378B16 /* IOS6-HW13-AlekseiKudinov */ = {
 			isa = PBXGroup;
 			children = (
-				B0836257284CCB8A0015FC31 /* App */,
-				B083625A284CCC130015FC31 /* View */,
-				B0836259284CCBCB0015FC31 /* Storyboards */,
+				B08513B52874F72E004A43A1 /* Sources */,
 				B083625C284CCC650015FC31 /* Resource */,
-				B083625D284CCC890015FC31 /* Config */,
 			);
 			path = "IOS6-HW13-AlekseiKudinov";
 			sourceTree = "<group>";
@@ -94,7 +97,7 @@
 		B083625A284CCC130015FC31 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				B01722B62848040E00378B16 /* ViewController.swift */,
+				B01722B62848040E00378B16 /* SettingsView.swift */,
 				B083625B284CCC430015FC31 /* Cells */,
 			);
 			path = View;
@@ -114,6 +117,8 @@
 		B083625C284CCC650015FC31 /* Resource */ = {
 			isa = PBXGroup;
 			children = (
+				B0836259284CCBCB0015FC31 /* Storyboards */,
+				B083625D284CCC890015FC31 /* Config */,
 				B01722BB2848041600378B16 /* Assets.xcassets */,
 			);
 			path = Resource;
@@ -122,9 +127,45 @@
 		B083625D284CCC890015FC31 /* Config */ = {
 			isa = PBXGroup;
 			children = (
-				B01722C02848041600378B16 /* Info.plist */,
+				B08513BD28750F9C004A43A1 /* Info.plist */,
 			);
 			path = Config;
+			sourceTree = "<group>";
+		};
+		B08513B12874EFAF004A43A1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B08513B22874F14B004A43A1 /* SettingsItem.swift */,
+				B08513B72874F8C9004A43A1 /* SettingsItemModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B08513B42874F6FC004A43A1 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				B08513B12874EFAF004A43A1 /* Model */,
+				B083625A284CCC130015FC31 /* View */,
+				B08513B62874F787004A43A1 /* Controller */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		B08513B52874F72E004A43A1 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				B0836257284CCB8A0015FC31 /* App */,
+				B08513B42874F6FC004A43A1 /* Scenes */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		B08513B62874F787004A43A1 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				B08513BB2875077C004A43A1 /* SettingsController.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -198,12 +239,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B01722B72848040E00378B16 /* ViewController.swift in Sources */,
+				B01722B72848040E00378B16 /* SettingsView.swift in Sources */,
 				B01722B32848040E00378B16 /* AppDelegate.swift in Sources */,
 				B0836256284CB9010015FC31 /* SettingsTableViewCellWithNotification.swift in Sources */,
+				B08513B32874F14B004A43A1 /* SettingsItem.swift in Sources */,
 				B012CCBC284AB7C600242328 /* SwitchTableViewCell.swift in Sources */,
 				B012CCC0284C234E00242328 /* SettingsTableViewCellWithText.swift in Sources */,
+				B08513BC2875077C004A43A1 /* SettingsController.swift in Sources */,
 				B012CCBA28495D4700242328 /* SettingsTableViewCell.swift in Sources */,
+				B08513B82874F8C9004A43A1 /* SettingsItemModel.swift in Sources */,
 				B01722B52848040E00378B16 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -352,7 +396,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "IOS6-HW13-AlekseiKudinov/Config/Info.plist";
+				INFOPLIST_FILE = "IOS6-HW13-AlekseiKudinov/Resource/Config/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -379,7 +423,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "IOS6-HW13-AlekseiKudinov/Config/Info.plist";
+				INFOPLIST_FILE = "IOS6-HW13-AlekseiKudinov/Resource/Config/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
