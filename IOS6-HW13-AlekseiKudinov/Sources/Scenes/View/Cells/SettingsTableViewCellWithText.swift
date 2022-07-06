@@ -79,7 +79,6 @@ class SettingsTableViewCellWithText: UITableViewCell {
         detail.centerYAnchor.constraint(
             equalTo: contentView.centerYAnchor
         ).isActive = true
-
     }
 
 // MARK: --Methods--
